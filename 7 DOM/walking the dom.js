@@ -1,0 +1,1 @@
+//document.getElementsByClassName("Classname")[index].style.color="color"

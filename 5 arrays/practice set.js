@@ -7,7 +7,7 @@ let i=0
 while (tmp!=0){
     arr[i++]=Number.parseInt(tmp)
     tmp=take("value:")
-}
+}89
 arr[i]=0
 console.log(arr)
 

@@ -1,0 +1,23 @@
+<!-- Wap using prompt to take age abd use alert to tell if he can drive and use confirm to ask user to see prompt again -->
+<html>
+    <head>
+        <title>Practice set</title>
+    </head>
+    <body>
+        <script>
+            while(1){
+                let age=prompt("Enter age")
+                if(age>18){
+                    alert("you can drive")
+                    break
+                }
+                else{
+                    console.error("Incorrect age")
+                    let ch=confirm("Want to see the prompt again")
+                    if(ch!=true)
+                    break;
+                }
+            }
+        </script>
+    </body>
+</html>
